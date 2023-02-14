@@ -6,10 +6,10 @@ document.getElementById('submit-button').addEventListener('click',function(){
     const getPasswordValue = getPasswordField.value;
 
     if(getEmailAddressValue==="google@gmail.com" && getPasswordValue==="mygoogle"){
-        console.log('valid user')
+        window.location.href="myaccount.html";
     }
     else{
-        console.log('invalid user')
+        alert('Please input valid mail address & password.')
     }
 
 })
